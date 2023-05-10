@@ -1,0 +1,26 @@
+header {
+    /* Utilizamos FLEX para poder juntar las cajas */
+    background-color: #2e63c8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        /* Le damos un tamaño y una ubicacion al logo */
+        height: 60px;
+    }
+}
+
+/* Utilizamos display FLEX para poner en fila el menu de navegacion */
+nav ul {
+    display: flex;
+    /* Sacamos el estilo de puntitos */
+    list-style: none;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navbar-custom {
+    background-color: rgb(12, 78, 144);
+}

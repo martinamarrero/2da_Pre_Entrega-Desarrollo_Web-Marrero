@@ -1,143 +1,128 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,600&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,600&display=swap');
-
-/* COMIENZA HEADER */
 header {
-    /* Utilizamos FLEX para poder juntar las cajas */
-    background-color: #2e63c8;
-    display: flex;
-    justify-content: space-between;
-    height: 150px;
-    align-items: center;
+  /* Utilizamos FLEX para poder juntar las cajas */
+  background-color: #2e63c8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* Le damos un tamaño y una ubicacion al logo */
 header img {
-    height: 60px;
+  /* Le damos un tamaño y una ubicacion al logo */
+  height: 60px;
 }
 
 /* Utilizamos display FLEX para poner en fila el menu de navegacion */
 nav ul {
-    display: flex;
-    /* Sacamos el estilo de puntitos */
-    list-style: none;
-    color: white;
-    gap: 20px;
-    font-size: 20px;
+  display: flex;
+  /* Sacamos el estilo de puntitos */
+  list-style: none;
+  color: white;
+  gap: 20px;
+  font-size: 20px;
 }
 
 .navbar-custom {
-    background-color: rgb(12, 78, 144); 
-  }
-  
-/* PAGINA INICIO */
-/* COMIENZA MAIN */
+  background-color: rgb(12, 78, 144);
+}
+
 main {
-    background-color: rgb(12, 78, 144);
+  background-color: rgb(12, 78, 144);
 }
 
 /* Seccion noticias y novedades */
 .section-noticias-novedades {
-    margin: 50px 0; 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
 }
-
 .section-noticias-novedades img {
-    display: flex;
-    align-items: center;
-    height: 600px;
-    margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  height: 600px;
+  margin: 10px 20px;
 }
 
 .container-text {
-    display: flex;
-    justify-content: center;
-    font-family: 'Fira Sans', sans-serif;
-    margin-left: 20px;
-    flex: 1;
+  display: flex;
+  justify-content: center;
+  font-family: "Fira Sans", sans-serif;
+  margin-left: 20px;
+  flex: 1;
 }
 
 /* Seccion ultimo partido */
 .section-ultimo-partido {
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    justify-content: flex-start;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: flex-start;
 }
-
 .section-ultimo-partido img {
-    height: 300px;
-    margin: 10px 20px;
+  height: 300px;
+  margin: 10px 20px;
 }
 
 /* Seccion proximo partido */
 .section-proximo-partido {
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    justify-content: flex-start;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: flex-start;
 }
-
 .section-proximo-partido img {
-    height: 400px;
-    margin: 10px 20px;
+  height: 400px;
+  margin: 10px 20px;
 }
 
-.card-custom{
-    background-color: #bb2222;
+.card-custom {
+  background-color: #bb2222;
 }
 
-
-/* PAGINA CLUB */
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .col {
-    flex-basis: 50%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  .col img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  h1, h2 {
-    margin: 10px 0;
-    text-align: center;
- }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
- /* PAGINA FUTBOL  */
+.col {
+  flex-basis: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
 
+.col img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
 
+h1,
+h2 {
+  margin: 10px 0;
+  text-align: center;
+}
 
-
-/* COMIENZA FOOTER */
 footer {
-    background-color: #2e63c8;
-    display: flex;
-    justify-content: center;
+  background-color: #2e63c8;
+  display: flex;
+  justify-content: center;
 }
-
 footer ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
+/*# sourceMappingURL=style-index.css.map */
