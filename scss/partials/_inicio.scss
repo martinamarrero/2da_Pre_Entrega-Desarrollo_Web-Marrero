@@ -57,3 +57,59 @@ main {
 .card-custom {
     background-color: #bb2222;
 }
+
+// .main-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+// }
+
+// .container-text {
+//     text-align: start;
+//     margin-bottom: 20px;
+// }
+
+// .image-container {
+//     display: flex;
+//     text-align: start;
+// }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .main-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .container-text {
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+}
