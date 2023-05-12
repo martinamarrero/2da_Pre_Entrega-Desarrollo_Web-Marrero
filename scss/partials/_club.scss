@@ -1,22 +1,25 @@
-.row {
+@mixin justify ($justify){
     display: flex;
+    justify-content: $justify;
+}
+
+.row {
+    @include justify(center);
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    .col {
+        flex-basis: 50%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    }
 }
 
-.col {
-    flex-basis: 50%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.col img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
 
 h1,
 h2 {

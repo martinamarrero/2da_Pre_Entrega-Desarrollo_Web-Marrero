@@ -1,5 +1,5 @@
 main {
-    background-color: rgb(12, 78, 144);
+    background-color: $color-principal;
 }
 
 /* Seccion noticias y novedades */
@@ -57,23 +57,6 @@ main {
 .card-custom {
     background-color: #bb2222;
 }
-
-// .main-container {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 100vh;
-// }
-
-// .container-text {
-//     text-align: start;
-//     margin-bottom: 20px;
-// }
-
-// .image-container {
-//     display: flex;
-//     text-align: start;
-// }
 
 .main-container {
     display: flex;
